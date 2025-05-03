@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+s
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <div class="header">
+
+        <img src="./img/mario-log1.png" alt="logo mario">
+        <a href="">Home</a>
+        <a href="">Nossos serviços</a>
+        <a href="">Fale conosco</a>
+
+    </div>
+
+    <div class="caixa-mae">
+
+        <div class="caixa-principal">
+
+            <img src="./img/logo.png" alt="Logo do mario bros" class="logo-mario">
+            <div class="p1">
+                <h2>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</h2>
+            </div>
+
+            <div class="p2">
+                <p>
+                    Você já se encontrou em uma situação de emergência com encanamento? Vazamentos enesperados,
+                    canos entupidos ou torneiras que não param de pingar? Não se preocupe,
+                    porque estamos aqui para Salvar seu Dia! Apresentamos a vocês os encanadores mais famosos
+                    do Reino Dos Cogumelos - Mario & Luigi!
+                </p>
+            </div>
+
+            <div class="button-form" onclick="mostrarForm()">
+                <button class="flash">Gostou? Entre Em Contato!</button>
+            </div>
+
+        </div>
+
+        <div>
+            <img src="./img/mario.png" class="imagem-mario-luigi" alt="mario e luigi">
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <div class="icon-container">
+
+        <a href="https://wa.me/5565998024631?text=Oi!%20Venho%20atrav%C3%A9s%20do%20site%2C%20gostaria%20de%20saber%20mais."
+            target="_blank">
+            <img src="./img/icon_whatsapp.png" class="link-whatsapp" alt="botao de contato whatsapp">
+        </a>
+
+    </div>
+
+    <form class="Formulario-fale-conosco" 
+    action="https://formcarry.com/s/LhF2i-4B57-"
+    method="POST"
+    enctype="multipart/form-data">
+
+        <input placeholder="Digite aqui seu nome" type="text" name="nome">
+        <input placeholder="Digite aqui seu telefone" type="tel" class="telefone" name="telefone">
+        <textarea input placeholder="olá, tudo bem? Digite aqui como podemos ajudar..." name="duvida"></textarea>
+
+        <button id="botao-orçamento" type="submit">Pedir orçamento</button>
+
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
